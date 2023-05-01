@@ -56,7 +56,7 @@ def test_products_group(browser):
     """
     Test case TC-2
     """
-     # определяем через функцию список меню
+    # определяем через функцию список меню
     expected_menu = [
         ("Все", "", "[class='tab-all active']"), 
         ("Бестселлеры", "/?products_group=best_sellers", "[class*='tab-best_sellers ']"),
